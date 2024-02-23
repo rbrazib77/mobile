@@ -1178,6 +1178,14 @@
   .featured-img {
     position: relative;
   }
+  .featured-title h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0 !important;
+    margin-bottom: 6px;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+  }
   /* ================update */
   .featured-badge {
     position: absolute;
@@ -1268,6 +1276,9 @@
   #ads {
     margin-top: 14px;
     margin-bottom: 14px;
+  }
+  .ads-item{
+    padding-bottom: 18px;
   }
   .ads-img img {
     width: 100%;
@@ -1367,7 +1378,7 @@
 
   /* ================Premium Section Start================== */
   .premium {
-    margin-bottom: 20px;
+    margin-bottom: 23px;
   }
   .premium .card-box {
     position: relative;
@@ -1490,43 +1501,45 @@
     color: #ffffff;
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
-  .latest-ads-content-wrp .content-title {
-    padding-top: 18px;
-    padding-left: 14px;
-    padding-right: 14px;
+  .latest-ads-content-wrp .content-titles {
+    padding: 10px 8.5px 10px 8.5px;
   }
-  .latest-ads-content-wrp .content-title .content-title-text {
-    height: 90px;
-    overflow: hidden;
+  .latest-ads-content-wrp .content-title .content-title-texts {
+    /* height: 90px;
+    overflow: hidden; */
   }
-  .latest-slider-item .latest-ads-content-wrp .content-title h4 {
+  .latest-slider-item .latest-ads-content-wrp .content-titles h4 {
     font-family: "Inter";
     font-weight: 500;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 20px;
     text-transform: capitalize;
     color: #000000;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
   }
-  .latest-slider-item .latest-ads-content-wrp .content-title p {
+
+ .content-title_pt h4{
+    padding-top: 4px !important;
+  }
+  .latest-slider-item .latest-ads-content-wrp .content-titles p {
     font-family: "Inter";
     font-weight: 400;
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 30px;
     color: #363636;
-    padding-right: 1px;
-    margin-bottom: 18px;
+    margin-bottom: 4px;
     text-transform: capitalize;
+    letter-spacing: 0.2px;
   }
-  .latest-ads-content-wrp .content-title .truncate {
+  .latest-ads-content-wrp .content-titles .truncate {
     display: -webkit-box;
     -webkit-line-clamp: 3; /* Number of lines to show */
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
-  .latest-ads-content-wrp .content-title .location-kelo {
+  .latest-ads-content-wrp .content-titles .location-kelo {
     border-top: 1px solid rgba(0, 0, 0, 0.12);
-    padding: 8px 0 10px 0;
+    padding-top: 4px;
   }
   .fa-regular.fa-angle-right {
     display: none;
@@ -2068,6 +2081,10 @@
   .ads-img img {
     width: 100%;
   }
+
+  .ads-item-two{
+    padding-bottom: 25px !important;
+  }
   /* ============= Ads Section End =================== */
 
   .newestauto {
@@ -2157,7 +2174,7 @@
   /* =============== Latest Ads Small End===================== */
   /* ================Premium Section Start================== */
   .premium {
-    margin-bottom: 20px;
+    margin-bottom: 26px;
   }
   .premium .card-box {
     position: relative;
