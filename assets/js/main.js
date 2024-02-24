@@ -16,11 +16,30 @@
     });
   });
 
+  $(".filter").click(function () {
+    $(".filter-box").toggle();
+  });
+
+  $(".toggle-password").click(function() {
+
+    $(this).toggleClass("fa-eye fa-eye-slash");
+    var input = $($(this).attr("toggle"));
+    if (input.attr("type") == "password") {
+      input.attr("type", "text");
+    } else {
+      input.attr("type", "password");
+    }
+  });
+
+
+
+
+
   $(".catagary_slick_item").slick({
     arrows: false,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
     dots: false,
     // prevArrow:'<i class="fa fa-chevron-left prev2"</i>',

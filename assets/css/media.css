@@ -1,5 +1,218 @@
 @media (min-width: 320px) and (max-width: 360px) {
   /* ============ Navber Start =============== */
+/* -----login Page End------- */
+  .login {
+    padding-top: 50px;
+    padding-bottom: 185px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .login-item .lgin-header h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px0;
+    line-height: 31.1px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .login-item .email input {
+    width: 100%;
+    height: 41px;
+    font-family: "Inter", sans-serif;
+    padding-left: 12px;
+    border-radius: 5.33px;
+    border: 1px solid #e4e4e4;
+    margin-bottom: 15px;
+  }
+
+  .login-item .email input[type="text"] {
+    outline: none;
+  }
+  .login-item .email ::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #696969;
+  }
+
+  .login-item .password input {
+    width: 100%;
+    height: 41px;
+    font-family: "Inter", sans-serif;
+    padding-left: 12px;
+    border-radius: 5.33px;
+    border: 1px solid #e4e4e4;
+    margin-bottom: 6px;
+  }
+  .login-item .password {
+    position: relative;
+  }
+  .login-item .password i {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    font-size: 11px;
+  }
+
+  .login-item .password input[type="text"] {
+    outline: none !important;
+  }
+  .login-item .password ::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #696969;
+  }
+  .login-item .forgotpassword a {
+    text-align: right;
+    color: #323d;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    line-height: 35px;
+    display: block;
+  }
+  .login-item .submitbtn button {
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    line-height: 35px;
+    background: #323d62;
+    width: 100%;
+    border: none;
+    border-radius: 5.33px;
+    margin-bottom: 11px;
+  }
+  .login-item .account-singup span {
+    color: #575757;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    line-height: 35px;
+    border-radius: 5.33px;
+    text-align: center !important;
+    display: block;
+  }
+  .login-item .account-singup a {
+    color: #323d62;
+    padding-left: 2px;
+  }
+   .login-item .account-OR h5{
+   text-align: center;
+   font-size: 16px;
+   line-height: 31.1px;
+   font-weight: 400px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+  }
+  .login-item .google-singup {
+    border: 1px solid #e4e4e4;
+    padding: 15px 61px 15px 61px;
+    border-radius:5.33px ;
+  }
+  .login-item .google-icon img {
+    width: 100%;
+  }
+  .login-item .google-content h5 {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    padding-left: 13px;
+  }
+/* -----login Page End------- */
+/* -------------- Category Filter Start------------ */
+  .filter-box {
+    background: #ffffff;
+    width: 250px;
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translateX(-50%);
+    z-index: 11;
+    padding: 25px 10px 25px 10px;
+    border-radius: 10px;
+  }
+
+  .filter-item .filter-header {
+    border: 1px solid #8f0303;
+    border-radius: 10px;
+    padding: 11px 10px 11px 10px;
+  }
+  .filter-item .filter-header span {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    line-height: 18px;
+    color: #1f0a11;
+  }
+  .filter-input {
+    position: relative;
+    margin-bottom: 8px;
+    margin-top: 19px;
+  }
+  .filter-input input {
+    padding: 10px 15px 10px 15px;
+    border-radius: 33px;
+    height: 33px;
+    color: #e4e4e4;
+  }
+
+  .filter-input input::placeholder {
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 400;
+    color: #000000a5;
+    font-family: "Inter", sans-serif;
+  }
+  .filter-input i {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    color: #8c8c8c;
+    transform: translateY(-50%);
+    font-size: 16px;
+  }
+
+  .filter-box .filter-item li {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #000000a5;
+    font-family: "Inter", sans-serif;
+    border: 1px solid #8c8c8c;
+    padding: 11px 0px 11px 15px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+  }
+  /* -------------- Category Filter End------------ */
+  /* --------------User Badge End------------ */
+  .user-badge-item {
+    position: relative;
+  }
+  .user-badge {
+    background: #d62626;
+    position: absolute;
+    top: 0;
+    right: -13px;
+    border-radius: 22px;
+  }
+  .user-badge h5 {
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #000000a5;
+    font-family: "Inter", sans-serif;
+    padding: 1px 8px 1px 8px;
+    color: #ffffff;
+  }
+
+  /* --------------User Badge End------------ */
+
   .dineuron-menu {
     opacity: 0;
     visibility: hidden;
@@ -703,13 +916,13 @@
     padding-top: 4px;
   }
   .latest-ads-content-wrp .content-titles .location-kelo .loc h6 {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-weight: 300;
     font-size: 13px;
     color: rgba(31, 10, 17, 0.8);
   }
   .latest-ads-content-wrp .content-titles .location-kelo .kelometter h6 {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-weight: 300;
     font-size: 13px;
     color: rgba(31, 10, 17, 0.8);
@@ -3236,6 +3449,7 @@
 
 @media (min-width: 440px) and (max-width: 480px) {
   /* ============ Navber Start =============== */
+
   .dineuron-menu {
     opacity: 0;
     visibility: hidden;
@@ -4046,6 +4260,7 @@
 
 @media (min-width: 480px) and (max-width: 520px) {
   /* ============ Navber Start =============== */
+
   .dineuron-menu {
     opacity: 0;
     visibility: hidden;
