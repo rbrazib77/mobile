@@ -1250,9 +1250,12 @@ label {
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
-.user-person-wrp {
+/* .user-person-wrp {
     padding: 11px 13px 4px;
-}
+} */
+
+
+
 .user-person-wrp .user-person {}
 .user-person-wrp .user-person .thumbel{
     margin-right: 14px;
